@@ -1,46 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>Cheesecake</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Cheesecake</title>
+        <link rel="stylesheet" href="/Users/spencertyo/repos/ToP-Recipes/style.css">
+    </head>
 
-<body>
-    <h1>Cheesecake</h1>
-    <img src="data:image/jpeg;base64,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"
-        alt="Cheesecake">
-    <h2>Description</h2>
-    <p>A dense, thick cheesecake with a shortdough crust. This is THE definitive one! You'll never use another
-        cheesecake recipe after you try this.</p>
-    <h3>Ingredients</h3>
-    <ul>
-        <li>1 ½ cups all-purpose flour</li>
-        <li>⅓ cup white sugar</li>
-        <li>1 egg, beaten</li>
-        <li>½ cup butter, softened</li>
-        <li>2 ½ pounds cream cheese, softened</li>
-        <li>1 ¾ cups white sugar</li>
-        <li>3 tablespoons all-purpose flour</li>
-        <li>5 eggs</li>
-        <li>2 egg yolks</li>
-        <li>¼ cup heavy whipping cream</li>
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-        <li>Preheat oven to 400 degrees F (200 degrees C). Lightly coat a 10 inch springform pan with spray oil. Note:
-            You could use a 9x13 inch pan instead.</li>
-        <li>To make the crust: Combine 1 1/2 cups flour, 1/3 cup sugar, 1 egg and 1/2 cup butter or margarine. Spread to
-            the edges of the pan. Prick all over with a fork, then bake 15 minutes at 400 degrees F (200 degrees C).
-            Allow to cool.</li>
-        <li>Increase oven temperature to 475 degrees F (245 degrees C). In a large bowl, combine cream cheese, 1 3/4
-            cups sugar, 3 tablespoons flour, 5 eggs and the yolks and mix thoroughly. Add cream and mix only enough to
-            blend./li>
-        <li>Pour filling over crust and bake for 10 minutes at 475 degrees F (245 degrees C). Reduce temperature to 200
-            degrees F (95 degrees C) and continue to bake for one hour. Turn oven off, but leave cake in for another
-            hour. Don't worry if it looks a little jiggly in the center.</li>
-        <li>Chill overnight. This is imperative! If desired, top with your favorite fruit or serve plain.</li>
-    </ol>
-</body>
+    <body>
+        <h1 class="recipe-title">Cheesecake</h1>
+        <main class="container">
+            <div class="leftside">
+                <img src="/Users/spencertyo/repos/ToP-Recipes/cheesecake.jpg" alt="Cheesecake">
+                <div class="ingredients">
+                    <h2 class="h2">Ingredients</h2>
+                    <ul>
+                        <li>1 ½ cups all-purpose flour</li>
+                        <li>⅓ cup white sugar</li>
+                        <li>1 egg, beaten</li>
+                        <li>½ cup butter, softened</li>
+                        <li>2 ½ pounds cream cheese, softened</li>
+                        <li>1 ¾ cups white sugar</li>
+                        <li>3 tablespoons all-purpose flour</li>
+                        <li>5 eggs</li>
+                        <li>2 egg yolks</li>
+                        <li>¼ cup heavy whipping cream</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="right-top">
+                    <div class="description">
+                        <h2 class="h2">Description</h2>
+                        <p>A dense, thick cheesecake with a shortdough crust. This is THE definitive one! You'll never
+                            use
+                            another
+                            cheesecake recipe after you try this.</p>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="h2">Steps</h2>
+                    <ol>
+                        <li>Preheat oven to 400 degrees F (200 degrees C). Lightly coat a 10 inch springform pan with
+                            spray
+                            oil.
+                            Note:
+                            You could use a 9x13 inch pan instead.</li>
+                        <li>To make the crust: Combine 1 1/2 cups flour, 1/3 cup sugar, 1 egg and 1/2 cup butter or
+                            margarine.
+                            Spread to
+                            the edges of the pan. Prick all over with a fork, then bake 15 minutes at 400 degrees F (200
+                            degrees
+                            C).
+                            Allow to cool.</li>
+                        <li>Increase oven temperature to 475 degrees F (245 degrees C). In a large bowl, combine cream
+                            cheese, 1
+                            3/4
+                            cups sugar, 3 tablespoons flour, 5 eggs and the yolks and mix thoroughly. Add cream and mix
+                            only
+                            enough
+                            to
+                            blend./li>
+                        <li>Pour filling over crust and bake for 10 minutes at 475 degrees F (245 degrees C). Reduce
+                            temperature
+                            to
+                            200
+                            degrees F (95 degrees C) and continue to bake for one hour. Turn oven off, but leave cake in
+                            for
+                            another
+                            hour. Don't worry if it looks a little jiggly in the center.</li>
+                        <li>Chill overnight. This is imperative! If desired, top with your favorite fruit or serve
+                            plain.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+    </body>
 
 </html>

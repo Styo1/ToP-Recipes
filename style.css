@@ -1,16 +1,68 @@
 html {
-    font-family: "Quicksand", sans-serif;
+    font-family: Palatino ,Georgia, 'Times New Roman', Times, serif
 }
-h1 {
-    text-align: center;
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+.title {
     font-size: 40px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: Papyrus, sans-serif;
 }
+.title,
+.recipe-title {
+    text-align: center;
+    font-size: 40px;
+}
+.rightside {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    float: right;
+    gap: 20px;
+}
+.description, .steps {
+    padding: 0px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.description {
+    height: 628px;
+}
+.steps {
+    height: 848px;
+}
+.leftside{   
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 40px;
+    width:420px;
+    height: 1500px;
+}
+.ingredients {
+    border: 0px solid;
+    width: 400px;
+    border-radius: 10px;
+    height: 500px;
+    background-color: rgba(177, 109, 7, 0.116);
+    font-size: 20px;
+    flex-grow: 3;
+    padding: 10px;
+}
+.h2 {
+    font-size: 30px;
+}
 img {
+    border-radius: 20px;
     height: 500px;
     width: 350;
+}
+.leftside img {
+    border-radius: 10px;
+    height: auto;
+    width: 420;
 }
 .main {
     gap: 40px;
@@ -22,3 +74,11 @@ img {
     font-size: 20px;
     font-weight: 200px;
 } 
+ul {
+    list-style-type: none;
+}
+.container {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+}
